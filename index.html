@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home — Developer Perumahan</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav-container">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">DevPerum<span>.</span></a>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" id="navToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="type.html" class="nav-link">Tipe Rumah</a>
+      <a href="artikel.html" class="nav-link">Artikel</a>
+      <a href="profil-developer.html" class="nav-link">Profil</a>
+      <a href="kontak.html" class="btn-contact nav-link">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hunian Nyaman, Investasi Masa Depan</h1>
+          <p>Perumahan modern dengan lingkungan hijau, akses mudah, dan desain fungsional untuk keluarga.</p>
+          <div class="hero-cta">
+            <a href="type.html" class="btn">Lihat Tipe Rumah</a>
+            <a href="kontak.html" class="btn btn-light">Hubungi Developer</a>
+          </div>
+        </div>
+        <div class="hero-cards" aria-hidden="false">
+          <!-- interactive carousel (JS handles simple rotation) -->
+          <div class="card" data-rotate>
+            <img src="https://picsum.photos/seed/house1/800/600" alt="Rumah Contoh">
+            <div class="card-body">
+              <h3>Tipe A — 36/72</h3>
+              <p>2 Kamar Tidur • 1 Kamar Mandi • Garasi</p>
+            </div>
+          </div>
+          <div class="card" data-rotate>
+            <img src="https://picsum.photos/seed/house2/800/600" alt="Rumah Contoh">
+            <div class="card-body">
+              <h3>Tipe B — 45/90</h3>
+              <p>3 Kamar Tidur • 2 Kamar Mandi • Taman Depan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+  <div class="container">
+    <h2 class="section-title">Kenapa Memilih Kami</h2>
+
+    <div class="features-grid">
+      
+      <article class="feature-card">
+        <h3>Lokasi Strategis</h3>
+        <p>Akses mudah ke fasilitas umum, dekat jalan utama dan transportasi publik.</p>
+      </article>
+
+      <article class="feature-card">
+        <h3>Lingkungan Hijau</h3>
+        <p>Ruang terbuka hijau, taman, dan area pedestrian yang nyaman dan sehat.</p>
+      </article>
+
+      <article class="feature-card">
+        <h3>Desain Modern</h3>
+        <p>Arsitektur modern, hemat energi, dan kualitas konstruksi terpercaya.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <section class="tampil-properti">
+      <div class="container">
+        <h2 class="section-title">Unit Unggulan</h2>
+        <div class="grid grid-3 responsive-cards" id="unitsList">
+          <!-- cards injected by HTML; JS can add filters and quick view -->
+          <article class="unit-card">
+            <img src="https://picsum.photos/seed/unit1/600/400" alt="Unit 1">
+            <div class="unit-body">
+              <h4>Tipe A</h4>
+              <p>36/72 · 2 Kamar</p>
+              <div class="card-actions">
+                <button class="btn-mini" data-open="quickView" data-id="A">Quick View</button>
+                <a href="type.html" class="link">Detil</a>
+              </div>
+            </div>
+          </article>
+          <article class="unit-card">
+            <img src="https://picsum.photos/seed/unit2/600/400" alt="Unit 2">
+            <div class="unit-body">
+              <h4>Tipe B</h4>
+              <p>45/90 · 3 Kamar</p>
+              <div class="card-actions">
+                <button class="btn-mini" data-open="quickView" data-id="B">Quick View</button>
+                <a href="type.html" class="link">Detil</a>
+              </div>
+            </div>
+          </article>
+          <article class="unit-card">
+            <img src="https://picsum.photos/seed/unit3/600/400" alt="Unit 3">
+            <div class="unit-body">
+              <h4>Tipe C</h4>
+              <p>60/120 · 4 Kamar</p>
+              <div class="card-actions">
+                <button class="btn-mini" data-open="quickView" data-id="C">Quick View</button>
+                <a href="type.html" class="link">Detil</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-articles">
+      <div class="container">
+        <h2 class="section-title">Artikel Terbaru</h2>
+        <div class="grid grid-3">
+          <article class="article-card">
+            <h4>Tips Memilih Rumah Pertama</h4>
+            <p>Pelajari apa yang harus menjadi prioritas saat membeli rumah pertama Anda.</p>
+            <a href="artikel.html" class="link">Baca</a>
+          </article>
+          <article class="article-card">
+            <h4>Perencanaan Keuangan KPR</h4>
+            <p>Strategi menyiapkan DP dan cicilan KPR agar tetap aman finansial.</p>
+            <a href="artikel.html" class="link">Baca</a>
+          </article>
+          <article class="article-card">
+            <h4>Manfaat Ruang Terbuka Hijau</h4>
+            <p>Mengapa taman dan ruang publik meningkatkan nilai properti.</p>
+            <a href="artikel.html" class="link">Baca</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <h3 class="footer-logo">DevPerum</h3>
+      <p class="footer-desc">
+        Hunian modern, nyaman, dan berkelanjutan untuk masa depan keluarga Anda.
+      </p>
+      <p class="footer-copy">© <span class="footer-year"></span> Developer Perumahan.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Navigasi</h4>
+      <a href="index.html">Home</a>
+      <a href="type.html">Tipe Rumah</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="profil-developer.html">Profil</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="footer-socials">
+      <h4>Ikuti Kami</h4>
+      <a href="#" class="social">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7Zm0 2h10c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3Zm5 2.5A4.5 4.5 0 0 0 7.5 11A4.5 4.5 0 0 0 12 15.5A4.5 4.5 0 0 0 16.5 11A4.5 4.5 0 0 0 12 6.5Zm0 2A2.5 2.5 0 0 1 14.5 11A2.5 2.5 0 0 1 12 13.5A2.5 2.5 0 0 1 9.5 11A2.5 2.5 0 0 1 12 8.5Zm4.75-.88a1.12 1.12 0 1 0-.01 2.24a1.12 1.12 0 0 0 .01-2.24Z"/></svg>
+        Instagram
+      </a>
+
+      <a href="#" class="social">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.71 17.38V10.26H6.09V17.38H8.71M7.4 9.19C8.27 9.19 8.97 8.48 8.97 7.61C8.97 6.74 8.27 6.03 7.4 6.03C6.53 6.03 5.82 6.74 5.82 7.61C5.82 8.48 6.53 9.19 7.4 9.19M18 17.38V13.73C18 11.72 16.96 10.85 15.47 10.85C14.38 10.85 13.72 11.44 13.45 11.93V10.26H10.84C10.88 11.03 10.84 17.38 10.84 17.38H13.45V13.87C13.45 13.63 13.47 13.39 13.55 13.21C13.78 12.72 14.23 12.21 14.99 12.21C15.97 12.21 16.46 12.92 16.46 13.99V17.38H18Z"/></svg>
+        LinkedIn
+      </a>
+
+    </div>
+  </div>
+</footer>
+
+
+  <!-- quick view modal -->
+  <div class="modal" id="quickView" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" data-close aria-label="Tutup">×</button>
+      <div class="modal-content" id="modalContent">Loading…</div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
